@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/") #decorador que criar a rota inicial 
 def index():
-    return '<h1>Hello Word!</h1>'
+    return '<h1>Wagner Gabriel</h1>'
 
 if __name__ == "__main__":
     #Definição da porta e do host aonde a app vai rodar
